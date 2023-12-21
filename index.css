@@ -1,0 +1,52 @@
+.outerDiv{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.special-div{
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    max-height: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div {
+    background-color: #fff;
+    display: flex;
+    max-width: 346px;
+    flex-direction: column;
+    padding: 18px 17px 40px;
+    margin-top: 10px;
+  }
+  .div-2 {
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1px 0;
+  }
+  .img {
+    aspect-ratio: 1.6;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  .div-3 {
+    color: #000;
+    align-self: center;
+    margin-top: 26px;
+    white-space: nowrap;
+    font: 400 20px Inter, sans-serif;
+  }
